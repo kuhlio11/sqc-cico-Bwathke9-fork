@@ -41,7 +41,7 @@ public class Main {
     public void insertString(FilterBypass fb, int offset, String stringToAdd, AttributeSet attr)
         throws BadLocationException
     {
-      if (fb.getDocument() != null) {
+      if (fb.getDocument() != null && stringToAdd.matches("[0-9]")) {
         super.insertString(fb, offset, stringToAdd, attr);
       }
       else {
@@ -53,7 +53,7 @@ public class Main {
     public void replace(FilterBypass fb, int offset, int lengthToDelete, String stringToAdd, AttributeSet attr)
         throws BadLocationException
     {
-      if (fb.getDocument() != null) {
+      if (fb.getDocument() != null && stringToAdd.matches("[0-9]")) {
         super.replace(fb, offset, lengthToDelete, stringToAdd, attr);
       }
       else {
