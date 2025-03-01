@@ -68,4 +68,13 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * Should ignore non numerical input and display username
 
+# Module 5: Add button to bring user back before timeout
+
+## Test steps
+1. Build and run CiCo.
+2. Enter 00000000 into the field and click Update.
+
+## Expected results
+* User should see a button labeled "Back" that brings them back to the check in/out page when pressed
+
 
