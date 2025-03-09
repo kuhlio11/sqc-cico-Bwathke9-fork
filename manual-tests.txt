@@ -77,4 +77,12 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * User should see a button labeled "Back" that brings them back to the check in/out page when pressed
 
+# Module 6: Monochromatic scheme using neutral colors
+
+## Test steps
+1. Build and run CiCo
+2. Enter 00000000 into the field and click Update.
+
+## Expected results
+* User should see a dark gray background, white text, and various shades of gray for buttons and backgrounds for input fields
 
